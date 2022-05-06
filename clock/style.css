@@ -1,5 +1,5 @@
 body {
-  background-color: #222;
+  background-color: #585A5E;
 }
 .page {
   width: 85%;
@@ -69,6 +69,10 @@ blockquote:after { content: ''; }
 
 footer p {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 30px;
   margin-top: 100px;
+  padding: 50px;
+  text-align: center;            /* header position*/
+  background: black;              /* header backgroung color then font color*/
+  color: white;
 }

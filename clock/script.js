@@ -160,3 +160,6 @@ var sleepEvent = function()
 };
 
 sleepTimeSelector.addEventListener("change", sleepEvent);
+
+var audio = new Audio("Clock-sound-tick-tock/audio_file.mp3");
+audio.play();
